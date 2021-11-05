@@ -1,0 +1,9 @@
+spring:
+  profiles: prod
+server:
+  port: 8000
+---
+spring:
+  profiles: test
+server:
+  port: 9000
